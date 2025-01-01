@@ -1,6 +1,6 @@
 # FrontEnd for Second Brain Project
 
-Repository: [Second Brain Backend](https://github.com/NarayanaGudiwada/secondBrain)
+Repository for Backend: [Second Brain Backend](https://github.com/NarayanaGudiwada/secondBrain)
 
 ## Setup Steps
 
