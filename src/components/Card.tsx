@@ -25,7 +25,7 @@ export const Card = ({ title, link, type }: cardProps) => {
     };
 
     return (
-        <div className="bg-white rounded-md border-grey-100 p-4 shadow-md border max-w-72">
+        <div className="bg-white rounded-md p-4 shadow-md max-w-72 border-2 border-grey-300">
             <div className="flex justify-between ">
                 <div className="flex gap-2 text-gray-500 items-center text-basex">
                     <ShareIcon size="md" />

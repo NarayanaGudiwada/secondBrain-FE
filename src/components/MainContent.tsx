@@ -13,7 +13,7 @@ const MainContent = () => {
             <CreateContentModal open={modalOpen} closeModal={() => {
                 setModalOpen(false);
             }} />
-            <div className="p-4 bg-background-500">
+            <div className="p-4 bg-background-100 h-screen pl-56">
                 <div className="flex gap-2 justify-end">
                     <Button variant="secondary" size="md" text="Share Brain" icon={<ShareIcon size="sm" />} />
                     <Button variant="primary" size="md" text="Add Content" icon={<PlusIcon size="sm" />} onClick={() => {
