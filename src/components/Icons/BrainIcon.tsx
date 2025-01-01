@@ -1,11 +1,13 @@
-export const BrainIcon = () => {
+import { memo } from "react";
+
+export const BrainIcon = memo( () => {
     return (
         <svg
             id="Layer_1"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 48 48"
-            className={`size-10 text-current fixed left-0 top-0 text-purple-500`}
+            className={`size-8 text-current text-purple-500`}
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"
@@ -17,4 +19,4 @@ export const BrainIcon = () => {
             <path d="m36.53 6.48-4.92 4.21 2.85 6.41M43 17.1s-6.4 7.83-9.25 6.4M35.88 27.9l6.89 4.98M38.02 30.04l-4.27 2.13M6.08 15s6.33 2.56 6.33 7.54M9.79 17.33l3.33-3.37M8.45 38.9l4.67-8.57M10.78 34.61s3-1.44 4.47 0M17.29 4.17l-.33 4.1M20 21.79l4 1.28"/>
         </svg>
     );
-};
+});
