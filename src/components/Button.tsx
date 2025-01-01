@@ -8,6 +8,7 @@ interface Buttonprops {
     size: sizeType,
     text: string,
     icon?: ReactElement
+    onClick? : ()=> void
 }
 
 const variantStyles: Record<variantType, string> = {
@@ -24,7 +25,7 @@ const sizeStyles: Record<sizeType, string> = {
 const defaultStyles  = "rounded-lg flex items-center gap-2"
 
 const Button = (props: Buttonprops) => {
-    return <button className={`${variantStyles[props.variant]} ${sizeStyles[props.size]} ${defaultStyles}`}>
+    return <button className={`${variantStyles[props.variant]} ${sizeStyles[props.size]} ${defaultStyles}`} onClick={props.onClick}>
         <div>{props.icon}</div>
         {props.text}
     </button>

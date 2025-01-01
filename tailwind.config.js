@@ -11,10 +11,12 @@ export default {
         },
         grey: {
           300: "#dcdcdd",
+          100: "#edf2f0"
         },
         background: {
           100: "#f8fafc",
         },
+
       },
     },
   },
